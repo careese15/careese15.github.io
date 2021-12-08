@@ -369,7 +369,8 @@ h4 {
 .container {
     padding: 10px 40px;
     position: relative;
-    width: 50%;  
+    width: 50%;
+    margin: 0;  
 }
 
 /* The circles on the timeline */
@@ -459,6 +460,11 @@ h4 {
 #achievements {
     position: relative;
     background-color: #fff9ef;
+    text-align: center;
+}
+#achievements .content {
+    padding: 0% 25%;
+    justify-content: center;
 }
 
 /* ================= Extracurriculars Section ================= */
